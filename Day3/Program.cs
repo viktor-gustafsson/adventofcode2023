@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using AdventOfCode;
 
-var schematic = File.ReadLines("C:\\Users\\vikto\\RiderProjects\\AdventOfCode\\AdventOfCode\\input.txt").ToList();
+var schematic = File.ReadLines("C:\\develop\\AdventOfCode2023\\Day3\\input.txt").ToList();
 var parts = new List<Part>();
 var hasMarker = false;
 var array2D = new char[schematic.Count, schematic[0].Length];
